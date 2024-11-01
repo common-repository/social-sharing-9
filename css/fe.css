@@ -1,0 +1,54 @@
+
+ul.social_icons_container {
+    list-style: none;
+    display: table;
+    overflow: auto;
+    margin: 0;
+    padding: 6px;
+    background: #fff;
+}
+
+.social_icons_container li {
+	line-height: 12px;
+    float: left;
+}
+
+.social_icons_container li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social_icons_container li a {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.floating_socials9 {
+    position: fixed;
+    left: 20px;
+    top: 100px;
+    z-index: 20000;
+}
+
+.floating_right_socials9 {
+    left: initial;
+    right: 20px;
+}
+
+.floating_socials9 ul.social_icons_container {
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.floating_socials9 .social_icons_container li {
+    float: none;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 7px;
+}
+
+.floating_socials9 .social_icons_container li:last-child {
+    margin-bottom: 0;
+}
+

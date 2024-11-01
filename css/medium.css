@@ -1,0 +1,9 @@
+
+.social_icons_container li {
+	line-height: 19px;
+	height: 19px;
+}
+
+.social_icons_container li a {
+  font-size: 20px;
+}
